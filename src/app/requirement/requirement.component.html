@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-md-3">
+        <h2 class="text-center text-primary">Post Requirements</h2>
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" [(ngModel)]="title">
+        </div>
+
+        <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" rows="10" [(ngModel)]="details"></textarea>     
+       </div>
+       <button class="btn btn-danger btn-block">Post</button>
+
+    </div>
+    <div class="col-md-9">
+        <h2 class="text-center text-info">Manage Requirements</h2>
+        <table class="table table-borded table-hoever">
+            <thead>
+                <tr>
+                    <th>Title </th>
+                    <th>Description</th>
+                    <th>Post Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let row of allrequirement">
+                    <td>{{row.title}}</td>
+                    <td>{{row.details}}</td>
+                    <td>{{row.postdate}}</td>
+                    <td>{{row.status}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

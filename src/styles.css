@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("../node_modules/bootstrap3/dist/css/bootstrap.css");
+@import url("../node_modules/bootstrap3/fa/css/all.css");
+
+.navbar-inverse{
+    background-color :#0f1460 !important;
+    border-color:#0f1460 !important;
+    box-shadow: 0px 5px 20px #0f1460;
+}
+
+body{
+    padding-top:60px;
+
+}
+.container500
+{
+    min-height: 500px;
+
+}
+.footer{
+    background:#040628;
+    min-height:150px;
+    padding-top:10px;
+    margin-top:10px;
+    color:white;
+
+}
+.footerinfo{
+    background:#0f1460;
+    color:white;
+    padding:15px;
+    box-shadow:opx 0px 10px #0f1460;
+
+}
+
+.footerinfo a
+{
+        margin-right:20px;
+        color:white;
+        text-decoration:none;
+}

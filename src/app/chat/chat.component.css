@@ -1,0 +1,19 @@
+.sent{
+    padding:20px;
+    
+    border-radius:30px 0px 30px 30px;
+    box-shadow: 10px 0px 10px green;
+    width:60%;
+    margin:5px;
+    font-weight:bold;
+}
+
+.received{
+    padding:20px;
+    font-weight:bold;
+    border-radius:0px 30px 30px 30px;
+    box-shadow: 0px -3px 15px red;
+    width:60%;
+    margin:5px;
+    float:right;
+}
